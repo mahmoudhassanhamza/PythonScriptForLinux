@@ -8,7 +8,7 @@ no_ways = 1
 
 cache_line_counter = 0
 block_size_counter = 0
-example_list = ['fibbonaci', 'matmul', 'memcopy', 'pi', 'whetstone']
+example_list = ['fibbonaci', 'matmul', 'memcopy', 'whetstone']
 for block_size_counter in range(0, 5):
     for exmaple_name in example_list:
         p1 = subprocess.run(
